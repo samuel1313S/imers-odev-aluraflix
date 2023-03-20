@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img{
+    width: 50px;
+
+}
+
+#contenner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    width: 270px;
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    
+    
+}
+
+.form{
+    width: 350px;
+    height: 500px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff
+}
+.title{
+    margin:0 150px 80px 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+}
+
+.email{
+    width: 220px;
+    padding: 13px;
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 60px;
+}
+
+.email::placeholder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+.password{
+    width: 220px;
+    padding: 13px;
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 45px;
+}
+.password::placeholder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.btn-sing{
+    width: 220px;
+    padding: 9px;
+    border: none;
+    color: #fff;
+    background: #E50913;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: filter 0.5s;
+    
+}
+.btn-sing:hover{
+    filter: brightness(0.5)
+}
+.check{
+    display: flex;
+    margin-block: 0%;
+}
+.checkbox{
+    cursor:pointer;
+    margin-right: 5px;
+    font-size: 28px;
+}
+.remembercheck{
+    font-size: 13px;
+    color: #aaaaaa;
+    margin-right: 21px;
+}
+.needcheck{
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+.face{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+}
+.img{
+    width: 16px;
+    position: relative;
+    right: 28px;
+    top: 18px;
+    cursor:pointer
+}
+
+.facetext{
+    font-size: 12px;
+    color: #aaaaaa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 2px 7px 0 0;
+    margin-bottom: 10px;
+}
+
+.footer{
+    margin-top: 6px;
+    max-width: 200px;
+}
+
+.new{
+    margin-left: 37px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #aaaaaa;
+}
+.new strong{
+    color: #fff;
+}
+
+.footer p{
+    font-size: 12px;
+    color: #aaaaaa;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
